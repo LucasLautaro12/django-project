@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% extends 'layouts/base.html' %}
+    {% block content %}
+    {% load static %}
+    <h1>{{ title }}</h1>
+    <img src="{% static 'fondoPantalla.png' %}" alt="" width="40">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ad eveniet recusandae non iusto exercitationem, similique aliquid! Labore consectetur autem in laboriosam, ad voluptas rerum odio unde fugit nesciunt error?</p>
+    {% endblock %}
+    
+    
+</body>
+</html>
